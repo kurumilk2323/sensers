@@ -9,7 +9,7 @@
 //   http://akizukidenshi.com/catalog/g/gK-13010/                 //
 //================================================================//
 
-#include<Wire.h>
+#include<Wire.h> //I2C通信用ライブラリ
 // BMX055　加速度センサのI2Cアドレス  
 #define Addr_Accl 0x19  // (JP1,JP2,JP3 = Openの時)
 // BMX055　ジャイロセンサのI2Cアドレス
