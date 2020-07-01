@@ -26,8 +26,6 @@ RPR0521RS rpr0521rs;
 #define PIN_SCL SCL
 
 //  照度センサ用のLED出力PIN(GPIO 04はPWM出力が可能)
-#define PIN_BRIGHT_LED (4)
-
 //  照度センサ用LEDの点灯閾値 単位[Lx(ルクス)]
 #define BRIGHT_LED_ON_THR (50)
 
